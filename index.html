@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>真实场景点号定位验证</title>
+    <link rel="stylesheet" href="./real-locator.css" />
+  </head>
+  <body>
+    <main class="locator-shell">
+      <header class="locator-header">
+        <div>
+          <p class="eyebrow">第一阶段验证</p>
+          <h1>真实场景点号定位</h1>
+          <p>围绕同一开关点号，同步定位左侧报文、中间通道点表和右侧遥信图像。</p>
+        </div>
+        <div class="locator-status" id="locatorStatus">等待选择点号</div>
+      </header>
+
+      <section class="locator-toolbar" aria-label="定位控制">
+        <label>
+          <span>真实素材</span>
+          <select id="sampleSelect"></select>
+        </label>
+        <label>
+          <span>目标点号</span>
+          <select id="pointSelect"></select>
+        </label>
+        <button id="locateButton" type="button">定位同一设备点</button>
+      </section>
+
+      <section class="locator-summary" id="locatorSummary"></section>
+
+      <section class="image-stage" aria-label="真实截图定位区">
+        <div class="image-scroll">
+          <div class="image-wrap" id="imageWrap">
+            <img id="sampleImage" alt="真实业务截图" />
+            <div id="overlayLayer" class="overlay-layer"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./real-locator.js"></script>
+  </body>
+</html>
