@@ -50,7 +50,7 @@ const samples = [
         tablePoint: "通道点号属性 / 点号 5031 / 序号 26",
         note: "表格第 9 行与右侧左支路 5031 开关对照。",
         boxes: [
-          { kind: "table", label: "表格：5031 通道点号行", x: 1016, y: 280, w: 705, h: 25 },
+          { kind: "table", label: "表格：5031 通道点号行", x: 1016, y: 300, w: 705, h: 25 },
           { kind: "diagram", label: "图像：5031 开关", x: 1968, y: 254, w: 52, h: 62 },
         ],
       },
@@ -108,7 +108,7 @@ const samples = [
         tablePoint: "通道点号属性 / 点号 511 / 序号 39",
         note: "表格第 19 行与右侧桥引线 511 对照。",
         boxes: [
-          { kind: "table", label: "表格：511 通道点号行", x: 1016, y: 505, w: 705, h: 25 },
+          { kind: "table", label: "表格：511 通道点号行", x: 1016, y: 530, w: 705, h: 25 },
           { kind: "diagram", label: "图像：511 引线", x: 2202, y: 331, w: 70, h: 48 },
         ],
       },
